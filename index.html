@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rumah Aesthetic</title>
+<meta name="description" content="Inspirasi & rekomendasi dekorasi rumah aesthetic — furnitur dan perabot pilihan untuk rumah yang rapi dan nyaman.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #faf8f5; --surface: #ffffff; --fg: #23201c; --muted: #6f6a62;
+    --accent: #b4532a; --line: #e8e3db;
+    --display: "Fraunces", Georgia, serif; --body: "Inter", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1a1816; --surface:#221f1c; --fg:#ece7e0; --muted:#a39d93; --accent:#e08a5f; --line:#35312c; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:var(--body); line-height:1.6; }
+  .wrap { max-width: 50rem; margin:0 auto; padding: clamp(3rem,8vw,6rem) 20px; }
+  .eyebrow { text-transform:uppercase; letter-spacing:.14em; font-size:.74rem; font-weight:600; color:var(--accent); margin:0 0 .8rem; }
+  h1 { font-family:var(--display); font-weight:600; font-size:clamp(2.4rem,8vw,3.6rem); line-height:1.02; margin:0 0 1rem; text-wrap:balance; }
+  .lead { font-size:1.15rem; color:var(--muted); max-width:34rem; margin:0 0 2.5rem; }
+  .links { display:flex; flex-wrap:wrap; gap:.8rem; }
+  .btn { display:inline-block; text-decoration:none; font-weight:600; font-size:.95rem; padding:.7rem 1.3rem; border-radius:10px; }
+  .btn.primary { background:var(--accent); color:#fff; }
+  .btn.ghost { border:1px solid var(--line); color:var(--fg); }
+  section { margin-top:3.5rem; }
+  h2 { font-family:var(--display); font-weight:600; font-size:1.5rem; margin:0 0 .8rem; }
+  p { color:var(--fg); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:1rem; margin-top:1.2rem; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:1.3rem; }
+  .card h3 { font-family:var(--display); font-size:1.1rem; margin:0 0 .4rem; }
+  .card p { color:var(--muted); font-size:.92rem; margin:0; }
+  footer { margin-top:4rem; padding-top:1.5rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; display:flex; flex-wrap:wrap; gap:1rem; justify-content:space-between; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">Rumah Aesthetic</p>
+    <h1>Inspirasi rumah yang rapi &amp; aesthetic</h1>
+    <p class="lead">Kurasi furnitur dan perabot pilihan untuk rumah bernuansa minimalis, Scandinavian, dan Japandi. Kami bagikan ide penataan dan rekomendasi produk lewat Pinterest.</p>
+    <div class="links">
+      <a class="btn primary" href="https://id.pinterest.com/akal_imitasi/" target="_blank" rel="noopener">Lihat di Pinterest</a>
+      <a class="btn ghost" href="./privacy.html">Privacy Policy</a>
+    </div>
+
+    <section>
+      <h2>Apa yang kami bagikan</h2>
+      <div class="grid">
+        <div class="card"><h3>Ruang Tamu</h3><p>Meja TV, rak, dan penataan ruang keluarga yang hangat.</p></div>
+        <div class="card"><h3>Kamar Tidur</h3><p>Nakas, rak, dan dekor kamar bernuansa tenang.</p></div>
+        <div class="card"><h3>Penyimpanan</h3><p>Solusi rapi anti-berantakan untuk rumah kecil.</p></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Rumah Aesthetic</span>
+      <span><a href="./privacy.html">Privacy Policy</a> · mail.akalimitasi@gmail.com</span>
+    </footer>
+  </main>
+</body>
+</html>
